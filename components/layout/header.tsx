@@ -23,7 +23,7 @@ const Header = () => {
     <header>
       <nav
         className={
-          "fixed top-0 left-0 w-full flex flex-wrap " +
+          "fixed top-0 left-0 w-full py-1 flex flex-wrap " +
           (isTop ? "bg-transparent" : "bg-white")
         }
         role="navigation"
