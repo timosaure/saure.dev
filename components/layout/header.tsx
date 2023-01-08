@@ -1,5 +1,6 @@
 import { IconDefinition, faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import Link from "next/link"
 import { useEffect, useState } from "react"
 
 export default function Header() {
@@ -24,9 +25,9 @@ export default function Header() {
         role="navigation"
         aria-label="main navigation"
       >
-        <a className="flex items-center px-2" href="/#home">
+        <Link className="flex items-center px-2" href="/#home" scroll={false}>
           <span className="text-primary font-bold text-xl secondary-font">TIMO</span>
-        </a>
+        </Link>
         <div className="flex flex-grow justify-end  md:hidden">
           <button data-collapse-toggle="navbar-sticky" type="button" className="inline-flex items-center p-2 text-sm text-gray-600 rounded-lg hover:text-gray-900" onClick={() => setMenuOpen(!isMenuOpen)}>
             <span className="sr-only">Open main menu</span>
@@ -36,14 +37,14 @@ export default function Header() {
         <div className={"flex-col space-y-4 md:space-y-0 items-stretch justify-between w-full bg-white md:border-none md:bg-inherit md:flex-grow md:flex md:flex-row md:w-auto md:order-1 " + (isMenuOpen ? "flex" : "hidden")} id="navbar-sticky">
           <ul className="flex flex-col items-stretch space-y-4 md:space-y-0 md:flex-row md:items-center md:space-x-4 pt-4 md:pt-0">
             <li className="">
-              <a className="pl-6 py-3 md:py-0 hover:bg-gray-100 md:hover:bg-inherit flex items-center hover:text-blue-800" href="/#about">
+              <Link className="pl-6 py-3 md:py-0 hover:bg-gray-100 md:hover:bg-inherit flex items-center hover:text-blue-800" href="/#about" scroll={false}>
                 Über mich
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="pl-6 py-3 md:py-0 hover:bg-gray-100 md:hover:bg-inherit flex items-center hover:text-blue-800" href="/#contact">
+              <Link className="pl-6 py-3 md:py-0 hover:bg-gray-100 md:hover:bg-inherit flex items-center hover:text-blue-800" href="/#contact" scroll={false}>
                 Kontakt
-              </a>
+              </Link>
             </li>
           </ul>
           <ul className="flex flex-col items-stretch space-y-4 md:space-y-0 md:flex-row md:items-center md:space-x-2 pb-4 pr-0 md:pb-0 md:pr-6">
