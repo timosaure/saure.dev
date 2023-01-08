@@ -13,6 +13,9 @@ html {
 
     /* smooth scroll to anchors */
     scroll-behavior: smooth;
+
+    @apply text-gray-800 bg-gray-50;
+
 }
 
 @layer utilities {
