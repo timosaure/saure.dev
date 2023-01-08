@@ -11,6 +11,12 @@ const Layout = (props: { children: JSX.Element }) => {
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="shortcut icon" href="/favicon.png" />
+
+        {/* // SEO tags */}
+        <meta name="description" content="Timo Saure - Software Ingenieur am Bodensee. Hier finden Sie alle Infos zu mir und meiner Arbeit!" />
+        <meta name="og:title" property="og:title" content="Timo Saure - Software Ingenieur am Bodensee" />
+        <meta name="og:description" property="og:title" content="Hier finden Sie alle Infos zu mir und meiner Arbeit!" />
+        <meta name="og:type" property="og:type" content="website" />
       </Head>
       <Header />
       <main className="flex flex-col">
