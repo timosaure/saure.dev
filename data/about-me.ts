@@ -59,7 +59,7 @@ export const aboutMe: AboutMe = {
     "skills": [
         {
             "logo": java,
-            "description": "Ich benutze Java für alles, von kleinen Heimprojekten zu komplexen BigData Systemen. Es ist meine Lieblingssprache für alles nicht-triviale im Backend"
+            "description": "Ich benutze Java für alles, von kleinen Heimprojekten zu komplexen BigData Systemen. Dank den neuesten JDK Versionen eine moderne, schnelle Sprache mit einem riesigen Ökosystem."
         },
         {
             "logo": react,
@@ -67,7 +67,7 @@ export const aboutMe: AboutMe = {
         },
         {
             "logo": docker,
-            "description": "Docker ist mein Favorit für die Verwaltung und das Deployment meiner Applikationen. Gemeinsam mit docker-compose oder Kubernetes erlaubt es mir einfach meine Microservice basierte Architektur zu managen."
+            "description": "Docker ist mein Favorit für die Verwaltung und das Deployment meiner Applikationen. Gemeinsam mit docker-compose oder Kubernetes erlaubt es mir einfach meine Infrastruktur zu managen."
         }
     ],
     "other_skills": [
