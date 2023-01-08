@@ -4,14 +4,14 @@ import OtherSkillItems from "./other_skills/other_skill_items";
 import Portfolio from "./portfolio/portfolio";
 import Skills from './skills/skills';
 
-export default function About(props: { aboutMe: AboutMe }) {
+export default function About(props: { id: string, aboutMe: AboutMe }) {
 
   const { sections, skills, portfolio, other_skills, portrait } = props.aboutMe
 
 
 
   return (
-    <section className="py-12 flex flex-col justify-center items-center">
+    <section id={props.id} className="py-12 flex flex-col justify-center items-center">
       <div className="container">
         <div className="text-center text-4xl font-bold mt-6 mb-8">
           <h1 className="title">Über mich</h1>

@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from 'next/image';
 import typingBackgrond from '../../public/typing_background.jpg';
 
-export default function Home() {
-    return <section className="h-screen bg-transparent hero is-fullheight is-transparent">
+export default function Home({ id }: { id: string }) {
+    return <section id={id} className="h-screen bg-transparent hero is-fullheight is-transparent">
         <div className="flex flex-col justify-center items-center w-full h-full">
             <div className="text-center text-white secondary-font">
                 <h1 className="uppercase text-7xl font-bold mb-6">Timo Saure</h1>
