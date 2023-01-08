@@ -1,37 +1,42 @@
 import {
+  faCalendarDays,
+  faClipboardCheck,
+  faCode,
+  faGears,
+  faPersonChalkboard,
   faUserFriends
 } from "@fortawesome/free-solid-svg-icons"
 import Offer from "../components/home/offer-model"
 
 export const offers: Offer[] = [
   {
-    "title": "Ihr Unternehmen im Mittelpunkt",
-    "icon": faUserFriends,
-    "text": "Durch schnelle Iteration und enge Kommunikation entwickle ich Software die Sie einfach und intuitiv unterstützt."
+    "title": "Projekt Planung & Umsetzung",
+    "icon": faCalendarDays,
+    "text": "Planung der Ressourcen, agile Umsetzung und Lieferung an die Endnutzer"
   },
   {
-    "title": "Kosten effektiv reduzieren",
-    "icon": faUserFriends,
-    "text": "Damit sich Ihr Investment langfristig bezahlt macht, liegt mein Fokus immer auf der Reduzierung von Kosten für Ihr Unternehmen."
+    "title": "Design & Development",
+    "icon": faCode,
+    "text": "Zielorientierte Auswahl der Technologien, Design der Architektur und Implementierung von Software"
   },
   {
-    "title": "Maßgeschneiderte Lösungen",
+    "title": "User orientiert",
     "icon": faUserFriends,
-    "text": "Sie wissen am besten was Ihr Unternehmen erfolgreich macht. Ich liefere eine maßgeschneiderte Lösung für Ihre Vision."
+    "text": "Agile Entwicklung, kurze Lieferzeiten und enger Kontakt mit den Usern für ein nutzerfreundliches Produkt"
   },
   {
-    "title": "Automatisierung manueller Prozesse",
-    "icon": faUserFriends,
-    "text": "Zusammen identifizieren wir manuelle Prozesse und automatisieren diese, um die wertvolle Zeit Ihrer Mitarbeiter optimal zu nutzen."
+    "title": "Digitalisierung & Automatisierung",
+    "icon": faGears,
+    "text": "Minimierung manuellen Aufwands der Endnutzer aber auch der Entwickler durch Automatisierung der Prozesse"
   },
   {
-    "title": "Flexible Preismodelle",
-    "icon": faUserFriends,
-    "text": "Ob einmalige Entwicklung oder monatliches Rundumpaket, zusammen finden wir ein Modell, dass zu Ihren Anforderungen passt."
+    "title": "Trainings",
+    "icon": faPersonChalkboard,
+    "text": "Interaktives und aufgabenorientiertes Training der Endnutzer in der Benutzung der Software"
   },
   {
-    "title": "Zuverlassige Qualität",
-    "icon": faUserFriends,
-    "text": "Digitalisierung liefert zuverlässige und gleichbleibende Qualität, die Ihre Kunden zu schätzen wissen."
+    "title": "Zuverlässige Qualität",
+    "icon": faClipboardCheck,
+    "text": "Fehler resistente Architektur und sauberer Code für ein zuverlässiges Produkt"
   }
 ]
