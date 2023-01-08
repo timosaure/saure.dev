@@ -20,7 +20,8 @@ export default function Home({ id }: { id: string }) {
             <Image
                 src={typingBackgrond}
                 alt="Background with hands typing on keyboard"
-                className="w-full h-full object-cover blur-sm" />
+                className="w-full h-full object-cover blur-sm"
+                width={1024} />
         </div>
     </section>
 }

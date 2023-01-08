@@ -44,7 +44,7 @@ function AboutDetails({ portrait, aboutSections }: { portrait: StaticImageData, 
   return (
     <div className="flex flex-row flex-wrap justify-center gap-8">
       <div className="grow shrink-0 basis-[28rem]">
-        <Image src={portrait} alt="Company logo" className="w-full h-full object-cover" />
+        <Image src={portrait} alt="Company logo" className="w-full h-full object-cover" width={1024} />
       </div>
       <div className="grow shrink-0 basis-[28rem]">{aboutText}</div>
     </div>
