@@ -1,6 +1,6 @@
 # Portfolio Timo Saure
 
-This is the source code for my personal portfolio website created with [Gatsby](https://www.gatsbyjs.com/).
+This is the source code for my personal portfolio website created with [Next.js](https://nextjs.org/).
 
 ## License
 
