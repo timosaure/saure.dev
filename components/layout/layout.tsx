@@ -5,7 +5,7 @@ import Header from "./header"
 
 const Layout = (props: { children: JSX.Element }) => {
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
       <Head>
         <title>Timo Saure</title>
         <meta charSet="utf-8" />
@@ -19,11 +19,11 @@ const Layout = (props: { children: JSX.Element }) => {
         <meta name="og:type" property="og:type" content="website" />
       </Head>
       <Header />
-      <main className="flex flex-col">
+      <main className="grow flex flex-col">
         {props.children}
       </main>
       <Footer />
-    </>
+    </div>
   )
 }
 

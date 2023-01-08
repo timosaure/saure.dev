@@ -1,5 +1,6 @@
 import { IconDefinition, faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 
 export default function Footer() {
 
@@ -12,6 +13,8 @@ export default function Footer() {
             icon={faLinkedinIn}
             href="https://www.linkedin.com/in/timosaure" />
         </div>
+        <Link className="mt-5" href="/imprint">Impressum</Link>
+        <Link className="" href="/privacy">Datenschutzerklärung</Link>
         <p className="my-5 text-base">
           {"Copyright Ⓒ " + new Date().getFullYear() + " Timo Saure"}
         </p>

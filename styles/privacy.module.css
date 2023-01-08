@@ -1,0 +1,27 @@
+.privacy h1 {
+    @apply text-4xl font-bold mb-3;
+}
+
+.privacy h2 {
+    @apply text-3xl font-bold mb-2;
+}
+
+.privacy h3 {
+    @apply text-2xl font-bold mb-1;
+}
+
+.privacy h4 {
+    @apply text-xl font-bold mb-1;
+}
+
+.privacy p {
+    @apply mb-4;
+}
+
+.privacy a {
+    @apply text-blue-600;
+}
+
+.privacy a:hover {
+    @apply underline;
+}
