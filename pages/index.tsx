@@ -1,8 +1,10 @@
 import { Inter } from '@next/font/google'
 
+import About from "../components/about/about"
 import ContactForm from '../components/contact_form/contact_form'
 import Home from "../components/home/home"
 import Offer from "../components/home/offer"
+import { aboutMe } from '../data/about-me'
 import { offers } from '../data/offers'
 
 
@@ -21,6 +23,7 @@ export default function Index() {
           <ContactForm name="Home" successPath="/contact/success" />
         </div>
       </section>
+      <About aboutMe={aboutMe} />
     </>
   )
 }

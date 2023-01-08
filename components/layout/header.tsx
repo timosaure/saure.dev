@@ -23,8 +23,8 @@ const Header = () => {
     <header>
       <nav
         className={
-          "fixed top-0 left-0 w-full py-1 flex flex-wrap " +
-          (isTop ? "bg-transparent" : "bg-white")
+          "fixed top-0 left-0 w-full py-1 flex flex-wrap z-50 " +
+          (isTop ? "bg-transparent" : "bg-white shadow shadow-gray-300")
         }
         role="navigation"
         aria-label="main navigation"
