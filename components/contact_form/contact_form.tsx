@@ -79,6 +79,7 @@ function ContactForm(props: { name: string; successPath: string; }) {
       return (
         <form className="text-gray-700" name="contact" data-netlify="true" onSubmit={handleSubmit}>
           {success === SendStatus.FAIL ? <FailureMessage /> : <></>}
+          <input type="hidden" name="form-name" value="contact" />
           <FormInput name="name" label="Name" type="text" icon={faUser} value={name} onChange={setName} />
           <FormInput name="mail" label="Email" type="email" icon={faEnvelope} value={mail} onChange={setMail} />
           <div className="mb-3">
