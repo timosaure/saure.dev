@@ -62,10 +62,10 @@ function ContactForm(props: { name: string; successPath: string; }) {
       body: data,
     })
       .then((r) => {
-        if (r.ok) {
-          setSuccess(SendStatus.SUCCESS);
+        if (!r.ok) {
+          throw new Error("Failed to send message!" + r.status)
         }
-        throw new Error("Failed to send message!" + r.status)
+        setSuccess(SendStatus.SUCCESS);
       })
       .catch((error) => {
         console.log(error)
