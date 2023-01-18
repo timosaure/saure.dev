@@ -19,7 +19,7 @@ const Offer = (props: { id: string, offerItems: Offer[] }) => {
 const Card = (props: { content: Offer }) => (
   <div className="relative w-72 border border-primary mx-4 my-5 transition ease-in-out duration-300 hover:-translate-y-1 hover:scale-110">
     <div className="absolute -top-5 right-10 text-4xl text-primary">
-      <FontAwesomeIcon className="bg-white p-1" icon={props.content.icon} />
+      <FontAwesomeIcon className="bg-gray-50 p-1" icon={props.content.icon} />
     </div>
     <div className="text-primary pt-12 pb-6 px-6">
       <h3 className="text-2xl font-bold mb-4 h-16 flex flex-col justify-end">{props.content.title}</h3>
