@@ -1,11 +1,9 @@
 
 const BulletPoints = (props: { points: string[] }) => {
-  const listItems = props.points.map((point, index) => <li key={index}>{point}</li>)
+  const listItems = props.points.map((point, index) => <li className="ml-[1em]" key={index}>{point}</li>)
 
   return (
-    <div className="ml-10" >
-      <ul className="list-disc list-outside">{listItems}</ul>
-    </div>
+    <ul className="list-disc list-outside">{listItems}</ul>
   )
 }
 

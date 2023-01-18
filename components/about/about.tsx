@@ -16,7 +16,7 @@ export default function About(props: { id: string, aboutMe: AboutMe }) {
         <div className="text-center text-4xl font-bold mt-6 mb-8">
           <h1 className="title">Über mich</h1>
         </div>
-        <div className="flex flex-col gap-y-16">
+        <div className="flex flex-col gap-y-32">
           <section>
             <AboutDetails portrait={portrait} aboutSections={sections} />
           </section>
@@ -43,10 +43,10 @@ function AboutDetails({ portrait, aboutSections }: { portrait: StaticImageData, 
 
   return (
     <div className="flex flex-row flex-wrap justify-center gap-8">
-      <div className="grow shrink-0 basis-[28rem]">
+      <div className="grow shrink basis-[28rem]">
         <Image src={portrait} alt="Company logo" className="w-full h-full object-cover" width={1024} />
       </div>
-      <div className="grow shrink-0 basis-[28rem]">{aboutText}</div>
+      <div className="grow shrink basis-[28rem]">{aboutText}</div>
     </div>
   );
 }
