@@ -21,7 +21,7 @@ export const aboutMe: AboutMe = {
     "portrait": portrait,
     "sections": [
         "Hi, ich heiße Timo. Ich bin Softwareingenieur und lebe im Moment am Bodensee. Ich arbeite bei Airbus, dort kann ich täglich meine Faszination für Technologie ausleben.",
-        "Ich entwickle Enterprise Software für die schnelle Analyse und Evaluation von Business Daten. Dadurch ermögliche ich es früh im Produktlebenzyklus Probleme zu erkennen, um Zeit und Geld zu sparen.",
+        "Ich entwickle Enterprise Software für die schnelle Analyse und Evaluation von Business Daten. Dadurch ermögliche ich es früh im Produktlebenzyklus Probleme zu erkennen.",
         "In meiner Freizeit bastle ich an Heimprojekten oder erkunde die Welt mit meiner Frau. Außerdem probiere ich immer gerne neues Essen, insbesondere wenn ich im Ausland bin."
     ],
     "portfolio": [
@@ -59,7 +59,7 @@ export const aboutMe: AboutMe = {
     "skills": [
         {
             "logo": java,
-            "description": "Ich benutze Java für alles, von kleinen Heimprojekten zu komplexen BigData Systemen. Dank den neuesten JDK Versionen eine moderne, schnelle Sprache mit einem riesigen Ökosystem."
+            "description": "Ich benutze Java für alles, von kleinen Heimprojekten zu komplexen BigData Systemen. Dank der neuesten JDK Versionen eine moderne, schnelle Sprache mit einem riesigen Ökosystem."
         },
         {
             "logo": react,
